@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SmartHomeDeviceControl
+{
+    public class DeviceController
+    {
+
+        public void ExecuteCommand(ICommand command) 
+        {
+            command.Execute();
+        }
+    }
+}
